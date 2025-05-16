@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px; background: #f5f5f5;
+}
+h1 { text-align: center; margin-bottom: 20px; }
+.nav-buttons {
+  text-align: center; margin-bottom: 20px;
+}
+.nav-buttons button {
+  margin: 0 5px; padding: 10px 20px; border: none; border-radius: 5px;
+  background: #36A2EB; color: white; cursor: pointer;
+}
+.nav-buttons button.active { background: #FF6384; }
+.section { width: 90%; margin: auto; }
+.filter-container {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 10px;
+}
+.chart-container {
+  background: white; padding: 20px; margin: 20px 0; border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.description {
+  font-style: italic; color: #333; margin-bottom: 20px;
+}
+#suggestions {
+  background: white; padding: 20px; margin: 20px 0; border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#suggestionList { list-style: disc; padding-left: 20px; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+table th, table td { border: 1px solid #ccc; padding: 8px; text-align: left; }
